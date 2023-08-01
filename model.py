@@ -3,6 +3,11 @@ import torch.nn as nn
 from torchsummary import summary
 from torchviz import make_dot
 
+
+
+__author__ ="SD"
+__Date__ = "2023/08/01"
+
 class ModelTorch(nn.Module):
     def __init__(self):
         super(ModelTorch, self).__init__()

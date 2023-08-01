@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
+
+
+__author__ ="SD"
+__Date__ = "2023/08/01"
+
 class ImportData:
     def __init__(self, root_files):
         self.root_files = root_files
